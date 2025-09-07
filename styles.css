@@ -21,8 +21,14 @@ body {
 .header-links {
     display: flex;
     gap: 20px;
-    color: #f9faf8;
 }
+
+.header-links a {
+    color: #e5e7eb;       
+    text-decoration: none; 
+    font-size: 14px;
+}
+
 
 .hero-main {
     display: flex;
@@ -138,7 +144,7 @@ body {
     margin: 60px auto;
     max-width: 1000px;
     border-radius: 10px;
-    
+
 }
 
 .cta-text {
@@ -168,3 +174,11 @@ body {
     transition: 0.3s;
 }
 
+.footer {
+    
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
