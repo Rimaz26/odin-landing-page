@@ -1,0 +1,111 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.hero {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    color: #f9faf8;
+}
+
+.hero-main {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 150px;
+    color: #f9faf8;
+    padding-bottom: 150px;
+}
+
+.hero-main-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero .signup-btn {
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+.hero-img-placeholder {
+    display: flex;
+    background-color: grey;
+    align-items: flex-start;
+    padding: 120px;
+}
+
+.random-info {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.random-info-head {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.random-img-content {
+    display: flex;
+    gap: 30px;
+    /* space between cards */
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    flex: 0 1 220px;
+}
+
+.card img {
+    width: 220px;
+    height: 220px;
+    display: block;
+    margin: 0 auto 12px;
+    /* space under image */
+}
+
+.random-img-text {
+    max-width: 220px;
+    margin: 0 auto;
+    color: #475569;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.quote-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
